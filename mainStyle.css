@@ -201,3 +201,14 @@ div.header {
 .other-page {
 	border: 1px solid white;
 }
+
+/* validators */
+.validate-img {
+	border: 3px inset LightSlateGray;
+	width: 300px;
+	height: 64px;
+	margin: -100px;
+	margin-right: 100px;
+	bottom: 0px;
+	left: 0px;
+}
