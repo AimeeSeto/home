@@ -1,0 +1,27 @@
+.country-img {
+	width: 250px;
+	height: 200px;
+	margin: 10px;
+	margin-left: 15px;
+}
+.caption {
+	width: 285px;
+	margin-left: 10px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: 450px;
+	margin-top: 20px;
+}
+#class-img {
+	width: 500px;
+	height: 350px;
+}
+#class-cap {
+	width: 530px;
+	font-style: italic;
+	font-size: 14px;
+	border: 1px solid SlateGray;
+	text-align: center;
+}

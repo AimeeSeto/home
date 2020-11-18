@@ -1,0 +1,162 @@
+h2 {
+	text-decoration: underline;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid LightSlateGray;
+}	
+.table-of-contents > h2 {
+	border: none;
+}
+
+/* quotes */
+.quote {
+	font-size: 24px;
+	text-decoration: underline;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+/* font for titles */
+.title-font {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/* format table of contents */
+.table-of-contents {
+	text-align: center;
+	margin: 5px;
+	margin-bottom: 100px;
+	padding: 5px;
+	font-size: 25px;
+}
+.table-of-contents ul{
+	display: table;
+	margin: 0 auto;
+	text-align: left;
+	border: 10px inset LightSlateGray;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-weight: normal;
+	padding: 45px;
+	margin-top: 20px;
+}
+.table-of-contents h3 {
+	font-size: 30px;
+	padding: 15px;
+}
+/* customize internal links for table of contents */
+.table-of-contents a {
+	text-decoration: none;
+}
+.table-of-contents a:link {
+	color: #588cbf;
+}
+.table-of-contents a:visited { /* don't want colour to change after they visit */
+	color: #588cbf;
+}
+.table-of-contents a:hover {
+	color: #9de8b1;
+	text-decoration: underline coral;
+}
+.table-of-contents a:active {
+	color: #faccc8;
+}
+
+/* piano section formatting */
+#piano-img {
+	height: 400px;
+	width: 300px;
+}
+/* art section formatting */
+#art h2 {
+	margin: 0px;
+	padding: 0px;
+}
+/* style pictures in specific ways */
+#wip {
+	height: 400px;
+	width: 300px;
+}
+#french-picture{
+	width: 300px;
+	height: 200px;
+}
+
+.watercolour {
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin: 5px 10px 0px 0px;
+	clear: left;
+}
+#watercolour + img {
+	margin-bottom: 40px;
+}
+.art-para {
+	float: right;
+}
+
+/* shows section formatting */
+#shows h2 {
+	margin: 0px;
+	padding: 0px;
+}
+#todo {
+	width: 300px;
+	height: 450px;
+	clear: right;
+}
+.shows-para {
+	float: left;
+}
+
+/* reading section formatting */
+#sapiens {
+	width: 200px;
+	height: 300px;
+	margin: 10px;
+	margin-right: 0px;
+}
+#sapiens-cap {
+	width: 225px;
+}
+.rec-title {
+	font-size: 28px;
+	font-family: "Times New Roman", Times, serif;
+}
+.book-cover {
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	margin: 0px;
+}
+.book-cap {
+	width: 225px;
+}
+.books {
+	display: inline-block;
+}
+a.book-link:link {
+	color: #7095cc;
+}
+a.book-link:visited {
+	color: #7095cc;
+}
+a.book-link:hover {
+	color: #fff1c7;
+}
+#claude1 {
+	display: none;
+}
+#claude:hover #claude1{
+	display: block;
+	background-color: LightSlateGray;
+	color: white;
+}
+
+/* friends section */
+.friends-img {
+	width: 200px;
+	height: 330px;
+	display: inline-block;
+}
+	

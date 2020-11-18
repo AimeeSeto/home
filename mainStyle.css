@@ -1,0 +1,203 @@
+/* custom selection colour :) */
+::selection {
+	background-color: #e6715c;
+	color: White;
+}
+span {
+	font-size: 20px;
+}
+.underline {
+	text-decoration: underline;
+}
+/* display images side by side */
+.row {
+	display: flex;
+}
+.column {
+	flex: 10%;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+/* img format */
+img {
+	border: 5px double;
+	padding: 10px;
+}
+.left {
+	float: left !important;
+	margin: 10px 10px 10px 0px;
+	clear: left;
+}
+.right {
+	float: right !important;
+	margin: 10px 0px 10px 10px;
+	clear: right;
+}
+/* caption format */
+figure {
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	width: 300px;
+}
+figcaption{
+	caption-side: bottom;
+	display: table-caption;
+	text-align: center;
+}
+.caption {
+	font-style: italic;
+	font-size: 14px;
+	border: 1px solid SlateGray;
+	width: 328px;
+	text-align: center;
+}
+/* customize internal links for returning to top */
+a.jump {
+	text-decoration: none;
+	border: 1px solid LightSlateGray;
+}
+a.jump:link {
+	color: #758cad;
+}
+a.jump:visited { /* don't want colour to change after they visit */
+	color: #758cad;
+}
+a.jump:hover {
+	color: #80c29f;
+	text-decoration: underline #f0b7a3;
+}
+a.jump:active {
+	color: #faccc8;
+}
+
+/* manual CSS line break. I don't remember why or how but (div) was messing with my formatting so I used spans instead */
+.line-break::after, .line-break::before, .line-break1::before { /* line-break1 for single line break */
+	content: "\A";
+	white-space: pre;
+}
+h1 {
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: White;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* I had to let the background repeat because this weird white bar was showing up on the side which I didn't know how to fix
+	and if I used code to get rid of it, it would cut off all my content if I changed window sizes. So I chose to let the background
+	repeat so when you minimize a scroll bar will be there */
+body {
+	background-image: url("images/mainBackground.png");
+	background-size: cover;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 100;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	width: 100%;
+	padding: 30px 80px 0px 80px;
+}
+
+th {
+	font-size: 50px;
+	font-weight: 500;
+	text-align: center;
+	background-color: #f9ffe1;
+}
+
+div.home-page-text {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* center list */
+ul.home-list {
+	padding: 40px;
+	display: table;
+	margin: 0 auto;
+	text-align: left;
+	border: 1px solid LightGray;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* set parameters for images on home page -- other images will be similar */
+.home-image {
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin: 25px 50px 20px 70px;
+	border: 5px double;
+	padding: 10px;
+}
+
+/*make title tall*/
+.table-title {
+	height: 200px;
+}
+
+/* space where information/content will go, define size and format */
+.content {
+	padding: 125px;
+	opacity: 1;
+	height: 100%;
+}
+.content-cell {
+	background-color: rgba(255, 255, 255, 0.8); /* makes background semi-transparent but text will not be affected */
+	vertical-align: top;
+}
+.contain-menu {
+	vertical-align: top;
+}
+/* style nav bar*/
+.menu-option {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	font-size: 20px;
+	height: 75px;
+	color: #4d608a;
+	transition: border 0.2s, background-color 0.5s, color 1s;
+	max-width: 171px; /* deals with interests box stretching and ruining format */
+}
+.menu-option:hover {
+	background-color: White;
+	color: Coral;
+	border-bottom: 2px solid #3e3e75;
+}
+
+/* link customization for menu buttons */
+/* makes link hit-box larger */
+.menu-option a {
+	text-decoration: none;
+	display: inline-block;
+	z-index: 1;
+
+}
+.menu-option a:link {
+	color: #666a8a;
+}
+/* don't want to change colour when they have visted the link */
+.menu-option a:visited {
+	color: #666a8a;
+}
+.menu-option a:hover {
+	color: Coral;
+}
+.menu-option a:active {
+	color: #e7e1ff;
+}
+/* center header for pages */
+div.header {
+	text-align: center;
+}
+#current-page {
+	background-color: white;
+}
+.other-page {
+	border: 1px solid white;
+}
